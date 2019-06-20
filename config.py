@@ -13,14 +13,14 @@ import os
 import watson_developer_cloud
 from slackclient import SlackClient
 
-location = "/Users/xxxxxxxx/Downloads/Movie_Bot/"  # replace with the full folder path where you downloaded the github repo
+location = "/Users/owner/Downloads/Movie_Bot/"  # replace with the full folder path where you downloaded the github repo
 
 ###################################################################
 ######## Slack configuration   ##########################
 ###################################################################
 
-SLACK_BOT_TOKEN='xoxb-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx'
-SLACK_VERIFICATION_TOKEN='xxxxxxxxxxxxxxxxxxxxxxxx' 
+SLACK_BOT_TOKEN='xoxb-671317738023-660064692834-uSMDy87iPCgc09bR50IJmXA4'
+SLACK_VERIFICATION_TOKEN='ACecFoIGH8AUE40WNsPTQ9Rq' 
 
 # instantiate Slack client
 slack_client = SlackClient(SLACK_BOT_TOKEN) # do not change this parameter
