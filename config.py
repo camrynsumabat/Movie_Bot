@@ -30,11 +30,11 @@ slack_client = SlackClient(SLACK_BOT_TOKEN) # do not change this parameter
 ###################################################################
 
 service = watson_developer_cloud.AssistantV1(
-    iam_api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', # replace with Password
+    iam_api_key = 'UYWMIi7OXkpKRjIHh0MEKGouZMU6XWgxfbD2WP7-oibW', # replace with Password
     version = '2018-09-20'
 )
 
-workspace_id = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx' # replace with Assistant ID
+workspace_id = '72a1bb73-e425-447a-a759-a4a9249d7c10' # replace with Assistant ID
 
 ###################################################################
 ######## Log files configuration   ##########################
